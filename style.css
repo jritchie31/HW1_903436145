@@ -1,0 +1,191 @@
+/* Styling for the LinkedIn icon */
+.linkedin-icon {
+    color: #032132; /* LinkedIn blue color */
+    font-size: 50px; /* Adjust the size of the icon */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for LinkedIn icon */
+.linkedin-icon:hover {
+    color: #fcfcfc; /* Slightly darker blue when hovered */
+}
+
+/* Flex container for centering the icons */
+.icons-container {
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Space between icons */
+    margin-top: 20px; /* Optional, add space from above content */
+}
+/* Optional: Styling the link text */
+a {
+    text-decoration: none; /* Remove underline */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: black; /* Color for the link text */
+}
+
+
+a:hover {
+    color: #0077b5; /* Color change on hover */
+}
+/* Styling for the Email icon */
+.email-icon {
+    color: #032132; /* Outlook blue or general email blue */
+    font-size: 50px; /* Same size as LinkedIn icon */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for Email icon */
+.email-icon:hover {
+    color: #fcfcfc; /* A brighter blue when hovered */
+}
+
+/* Style the navigation tabs */
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    text-align: center;  /* Center the navigation */
+    background-color: #333;  /* Background color for tabs */
+}
+
+nav ul li {
+    display: inline-block;  /* Make each tab sit next to each other */
+    margin-right: 20px;  /* Space between tabs */
+}
+
+nav ul li a {
+    color: white;  /* Tab text color */
+    text-decoration: none;  /* Remove underline */
+    padding: 10px 20px;  /* Padding inside the tab */
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;  /* Darker background when hovered */
+}
+
+/* Style for sections */
+section {
+    padding: 50px 20px;
+    margin-top: 20px;
+    border: 1px solid #ddddddbe;
+    background-color: #f9f9f9fa;
+}
+
+/* Flexbox for centering content */
+header {
+    position: relative; /* Set positioning context for content */
+    height: 100vh;      /* Full viewport height */
+    background-image: url('death-star.svg');/* Add your image URL here */
+    background-size: cover; /* Make sure the image covers the entire header */
+    background-position: center; /* Center the image */
+    color: white; /* Ensure text is readable on the image */
+    display: flex;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+}
+/* Container for profile image and text */
+.profile_container {
+    display: flex;
+    flex-direction: column;   /* Stack content vertically */
+    justify-content: center;
+    align-items: center;      /* Center all elements horizontally */
+    text-align: center;       /* Center the text inside the container */
+    padding: 20px;
+}
+
+/* Styling for the profile image */
+.profile-image {
+    width: 150px;             /* Adjust the image size */
+    height: 150px;            /* Adjust the image size */
+    border-radius: 50%;       /* Make it a circle */
+    object-fit: cover;        /* Ensure the image covers the area without distortion */
+    margin-bottom: 20px;      /* Add some space between the image and text */
+}
+
+/* Icon Styling */
+.profile_container a {
+    margin: 0 10px;           /* Space between icons */
+    color: black;             /* Default color for icons */
+}
+
+.profile_container i {
+    font-size: 30px;          /* Icon size */
+}
+
+
+
+h1 {
+    margin-top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 4vw;  /* 5% of the viewport width */
+
+}
+
+h2 {
+    margin-top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   
+}
+
+/* Add a little space between sections */
+section:not(:first-child) {
+    margin-top: 40px;
+}
+
+/* Fix for top navigation */
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+/* Style for each link in the topnav */
+.topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Highlight the active link */
+.topnav a.active {
+    background-color: #4f7cc6;  /* A softer blue color for active link */
+    color: white;
+}
+
+/* Hover effect for nav links */
+.topnav a:hover {
+    background-color: #575757;  /* Darker background when hovered */
+    color: black;
+}
+
+/* Space the content below the navbar */
+body {
+    padding-top: 60px; /* Adjust based on navbar height */
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+.profile-pic {
+    width: 150px;          /* Set the width to 150px */
+    height: 150px;         /* Set the height to 150px (same as width for a perfect circle) */
+    border-radius: 50%;    /* This makes the image circular */
+    object-fit: cover;     /* Ensures the image covers the circle without distorting */
+}
+
+
+/* Apply smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
