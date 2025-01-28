@@ -1,0 +1,13 @@
+Project Name,Description
+"SEMI AUTOMATIC SEGMENTATION ANNOTATION | Python, Open CV, PyTorch","•Used Scikit-learn to preprocess and annotate 200 2D images of pavement cracks.
+• Developed semi-automatic data annotation tool with 60% accuracy, using semi-supervised learning with active module
+(PyTorch). Resulting in 12% reduction of annotated data needed for computer vision purposes.
+• Validated pseudo labels generated and optimized ratio of labeled/unlabeled data."
+"MACHINE LEARNING FOR DWELL TIME PREDICTION | Python, Sklearn, NumPy","•Preprocessed 2 million rows of sensor data collected by MARTA Transit System and carried out exploratory data analysis.
+• Developed machine learning models (SVR, Random Forest, XG Boost and ADA Boost) with Sklearn to estimate bus dwell
+time.
+• Evaluated model performance with r2, parity plots and computational costs to determine the most effective model.
+"
+"CEREBRAL PALSY CLASSIFIER – SAMSUNG AI BOOTCAMP | PyTorch, OpenCV, TensorFlow","•Annotated 2D images and videos using mediapipe (OpenCV) and generated augmented datasets using Kernel filters and
+color distortion.
+• Developed a CNN model to classify patients with Cerebral Palsy and Stroke using TensorFlow"
