@@ -1,0 +1,25 @@
+﻿Company,Time Range,Role,Tasks
+Nvidia,Sep 2024-Dec 2024,Embedded Software TPM Intern,"• Piloted and managed two successful releases for four Large Language Models (LLMs), overseeing all phases from
+development to deployment.
+• Created and maintained custom dashboards using Jira and Confluence to track progress, identify blockers, and drive
+continuous improvement, resulting in a 11% increase in on-time delivery of releases.
+• Automated data ingestion process for annotators using Amazon S3, Python, and AWS Lambda, reducing manual
+intervention and speeding up data access by 12%."
+Mckinsey & Company,June 2024-Aug 2024,Business Analyst Intern,"• Collaborated with cross-functional teams to design and implement solutions, to enhance project outcomes
+• Prepared client presentations, communicating complex data and insights to stakeholders
+• Performed data analysis with SQL and Excel, and assisted with creating financial models to prioritize funding for client’s
+portfolio"
+Tesla,May 2023-Aug 2023,Technical Program Manager - Supercharger Intern,"• Piloted and managed the life cycle (inception to on-site installation) of new customer experience program slated for
+implementation at future charging sites.
+• Developed Power BI dashboards, enabling comprehensive visualization of operational logistics and real-time status updates
+for over 1900 charging sites.
+• Collaborated with cross-functional teams to define requirements for new customer experience tool. Cleaned dataset of
+70,000 customer feedback survey entries, employing Excel and SQL to conduct preliminary market analysis."
+HOK,Sep 2022-Dec 2022,Structural Engineering Intern,• Designed building expansion in Revit and performed analysis for six loading combinations in ETABS.
+Tesla,May 2022-Aug 2022,Industrial Engineering Intern,"•	Revised layout designs and interfaced with multiple teams to identify possible problems associated with design implementation and created solutions to mitigate these issues.
+•	Designed a 1500 sqft lab in AutoCAD for a future program and coordinated logistics between engineers and vendors to begin construction of lab. Created process flow diagram for the project outlining over 20 processes.
+•	Redesigned manufacturing line layout in Revit for two new future projects that decreased current planned line sizes by 10%."
+Tesla,Sept 2021 - Dec 2021,Contruction Engineering Intern,"• Coordinated logistics with multiple contractors, and managed fireproofing for over 1.5 million square feet
+• Managed installation of life safety panels and devices in 300,000 square feet of a building.
+• Introduced metrics for tracking contractor’s progress through graphs and tables in excel, and created a data
+visualization system that provided real time updates on the contractor’s progress."
