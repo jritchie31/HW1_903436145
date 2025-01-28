@@ -13,6 +13,7 @@
 
 </head>
 <body>
+
     <!--Naviation Bar-->
     <div class="topnav">
         <a class="active" href="#About">About</a>
@@ -27,7 +28,13 @@
 
         <div class="profile_container">
 
-            <h1>Jayda Ritchie</h1>
+            <h1>
+                <!-- Jayda Ritchie -->
+                <span class="invert-part-1">Jay</span>da<span class="invert-part-2"></span> Ritc<span class="invert-part-1">hie</span>
+
+
+
+            </h1>
             <div class="icons-container">
                 <a href="https://www.linkedin.com/in/jaydaritchie" target="_blank">
                     <i class="fab fa-linkedin linkedin-icon"></i> 
@@ -76,7 +83,29 @@
 
     </section>
 
-    <section id ="Projects">
+    <!-- Scripts to dynamically read in resume data and project data -->
+    <h2>Work Experience</h2>
+
+    <div id="papers-container">
+        <!-- Paper items will be added here dynamically -->
+    </div>
+
+    <!-- Include jQuery for easier DOM manipulation (optional) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include PapaParse (CSV parsing library) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+
+
+    <div id="publicationsInternships"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="index.js"></script>
+
+
+    <!-- <section id ="Projects">
         <h2>Projects</h2>
         <p>Informaion about me to update</p>
 
@@ -95,9 +124,9 @@
         <p>I'd Love To Connect With You<p>
 
 
-    </section>
+    </section> -->
 
-    <script src="index.js"></script>
+    
 </body>
 
 </html>
